@@ -1,14 +1,14 @@
-# Nitish Kumar Singh — Portfolio v2
+# Nitish Kumar Singh — Portfolio
 
-A custom personal portfolio for GitHub Pages.
+Personal portfolio website for Nitish Kumar Singh.
 
-Design direction: editorial/professional rather than a clone of another portfolio.
+## Files
+- `index.html` — website structure and content
+- `style.css` — responsive design, dark mode and animations
+- `script.js` — theme toggle and scroll-reveal effects
+- `Nitish_Kumar_Singh_Resume.pdf` — downloadable resume
 
-Files:
-- index.html
-- style.css
-- script.js
-- Nitish_Kumar_Singh_Resume.pdf
+## Deployment
+Designed for GitHub Pages. Upload all five files to the repository root and commit the changes.
 
-Upload/replace these files in:
-Iamnitishrajput/iamnitishrajput.github.io
+Portfolio: https://iamnitishrajput.github.io/
