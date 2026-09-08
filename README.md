@@ -21,3 +21,9 @@ https://iamnitishrajput.github.io/
 - Current status: open to job opportunities.
 - Added a working expandable “What I bring to a role” section using only resume-supported experience.
 - Added live scroll progress, status pulse, count-up interaction where supported by the existing V5 metric, timeline activation, hover motion, and reduced-motion accessibility support.
+
+
+## V8 updates
+- Fixed the “Currently open to job opportunities” status so it stays within the portfolio content grid instead of touching the viewport edges.
+- Added an expandable “Questions You Might Have” section covering the career journey, graduation decision, current job search and career direction.
+- Added a navigation link to the new section.

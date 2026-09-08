@@ -161,3 +161,69 @@ body.dark{--bg:#101725;--ink:#f2eee6;--muted:#a9b2c1;--line:#f2eee6;--accent:#ff
     transition-duration:.001ms !important;
   }
 }
+
+
+/* V8: keep decorative/status elements inside the page grid */
+.availability-pill{
+  width:max-content;
+  max-width:100%;
+  box-sizing:border-box;
+  margin:0 0 1.1rem;
+}
+.scroll-progress{
+  pointer-events:none;
+}
+.qa-list{
+  width:100%;
+  max-width:1100px;
+  margin:2rem 0 0;
+  border-top:1.5px solid currentColor;
+}
+.qa-item{
+  border-bottom:1.5px solid currentColor;
+}
+.qa-toggle{
+  width:100%;
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  padding:1.25rem .25rem;
+  border:0;
+  background:transparent;
+  color:inherit;
+  font:inherit;
+  font-weight:800;
+  font-size:clamp(1rem,1.7vw,1.25rem);
+  text-align:left;
+  cursor:pointer;
+  transition:padding .25s ease, opacity .25s ease;
+}
+.qa-toggle:hover{
+  padding-left:.5rem;
+}
+.qa-icon{
+  flex:0 0 auto;
+  font-size:1.5rem;
+  font-weight:400;
+  transition:transform .3s ease;
+}
+.qa-toggle[aria-expanded="true"] .qa-icon{
+  transform:rotate(45deg);
+}
+.qa-answer{
+  max-width:850px;
+  padding:0 2rem 1.35rem .25rem;
+  animation:panelIn .3s ease both;
+}
+.qa-answer p{
+  margin:0;
+  line-height:1.75;
+  opacity:.82;
+}
+@media (max-width:800px){
+  .availability-pill{max-width:calc(100% - .5rem)}
+  .qa-toggle{padding:1rem .1rem}
+  .qa-answer{padding-right:.1rem}
+}
