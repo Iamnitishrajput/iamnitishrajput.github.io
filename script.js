@@ -1,14 +1,27 @@
-const toggle=document.getElementById('themeToggle');
-const saved=localStorage.getItem('nks-theme');
-if(saved==='dark') document.body.classList.add('dark');
-function updateIcon(){toggle.textContent=document.body.classList.contains('dark')?'☀':'☾'}
-updateIcon();
-toggle.addEventListener('click',()=>{
-  document.body.classList.toggle('dark');
-  localStorage.setItem('nks-theme',document.body.classList.contains('dark')?'dark':'light');
-  updateIcon();
+const toggle = document.getElementById("themeToggle");
+const savedTheme = localStorage.getItem("nks-theme");
+if (savedTheme === "dark") document.body.classList.add("dark");
+
+function syncThemeIcon(){
+  toggle.textContent = document.body.classList.contains("dark") ? "☀" : "☾";
+}
+syncThemeIcon();
+
+toggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+  localStorage.setItem("nks-theme", document.body.classList.contains("dark") ? "dark" : "light");
+  syncThemeIcon();
 });
-const observer=new IntersectionObserver(entries=>{
-  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('reveal')}})
-},{threshold:.12});
-document.querySelectorAll('.section h2,.skill,.project,.edu-card').forEach(el=>observer.observe(el));
+
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("reveal");
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, {threshold: 0.12});
+
+document.querySelectorAll(".section h2, .career, .expertise-grid article, .project, .education-row, .contact-links a").forEach(el => {
+  revealObserver.observe(el);
+});

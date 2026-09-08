@@ -1,14 +1,16 @@
-# Nitish Kumar Singh — Portfolio
+# Nitish Kumar Singh — Portfolio V5
 
-Personal portfolio website for Nitish Kumar Singh.
+A premium, professional portfolio focused on banking operations, compliance monitoring, audit, process governance, vendor controls and operational risk.
 
 ## Files
-- `index.html` — website structure and content
-- `style.css` — responsive design, dark mode and animations
-- `script.js` — theme toggle and scroll-reveal effects
-- `Nitish_Kumar_Singh_Resume.pdf` — downloadable resume
+- index.html
+- style.css
+- script.js
+- README.md
+- Nitish_Kumar_Singh_Resume.pdf
 
-## Deployment
-Designed for GitHub Pages. Upload all five files to the repository root and commit the changes.
+## GitHub Pages
+Upload all five files to the repository root and commit the changes.
 
-Portfolio: https://iamnitishrajput.github.io/
+Live site:
+https://iamnitishrajput.github.io/
