@@ -14,3 +14,10 @@ Upload all five files to the repository root and commit the changes.
 
 Live site:
 https://iamnitishrajput.github.io/
+
+
+## V6 updates
+- Education now lists B.A. Hons. at IGNOU (2023–2026), Class XII (CBSE, 2016), and Class X (CBSE, 2014).
+- Current status: open to job opportunities.
+- Added a working expandable “What I bring to a role” section using only resume-supported experience.
+- Added live scroll progress, status pulse, count-up interaction where supported by the existing V5 metric, timeline activation, hover motion, and reduced-motion accessibility support.

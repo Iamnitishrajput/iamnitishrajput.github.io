@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
   <header class="header">
     <a class="wordmark" href="#top">NITISH KUMAR SINGH</a>
     <nav>
@@ -25,6 +26,12 @@
 
   <main id="top">
     <section class="hero">
+
+<div class="availability-pill" aria-label="Current job search status">
+  <span class="availability-dot"></span>
+  Currently open to job opportunities
+</div>
+
       <div class="hero-wrap">
         <div class="hero-left reveal">
           <p class="kicker"><span></span> BANKING OPERATIONS / COMPLIANCE / PROCESS MONITORING</p>
@@ -58,7 +65,26 @@
         <span>QUALITY → TRAINING → AUDIT → COMPLIANCE</span>
         <span>SCROLL TO EXPLORE <i>↓</i></span>
       </div>
-    </section>
+    
+
+<div class="work-profile-wrap reveal">
+  <button class="work-profile-toggle" type="button" aria-expanded="false" aria-controls="work-profile-panel">
+    <span>What I bring to a role</span>
+    <span class="toggle-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="work-profile-panel" id="work-profile-panel" hidden>
+    <p>I bring hands-on experience from banking and NBFC operations, with work across internal quality and compliance audits, audit preparedness, process/SOP adherence, evidence and documentation checks, MIS reporting, escalation coordination and employee training.</p>
+    <div class="profile-points">
+      <span>Audit &amp; Compliance</span>
+      <span>Process Monitoring</span>
+      <span>Bank/NBFC Operations</span>
+      <span>Documentation &amp; MIS</span>
+      <span>Stakeholder Coordination</span>
+    </div>
+  </div>
+</div>
+
+</section>
 
     <section id="about" class="section about">
       <div class="label-row"><span>01</span><span>ABOUT</span></div>
@@ -186,7 +212,32 @@
       </div>
     </section>
 
-    <section id="contact" class="section contact">
+    <section class="section reveal" id="education">
+  <div class="section-heading">
+    <span class="eyebrow">EDUCATION</span>
+    <h2>Academic background</h2>
+  </div>
+  <div class="education-grid">
+    <article class="info-card">
+      <span class="card-kicker">2023 — 2026</span>
+      <h3>B.A. Hons.</h3>
+      <p>Indira Gandhi National Open University (IGNOU)</p>
+      <small>Pursuing final year · Expected completion by end of 2026</small>
+    </article>
+    <article class="info-card">
+      <span class="card-kicker">2016</span>
+      <h3>Senior Secondary (Class XII)</h3>
+      <p>CBSE Board · GBSSS, Sagarpur, Delhi</p>
+    </article>
+    <article class="info-card">
+      <span class="card-kicker">2014</span>
+      <h3>Secondary (Class X)</h3>
+      <p>CBSE Board · Delhi</p>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
       <div class="label-row"><span>06</span><span>CONTACT</span></div>
       <div class="contact-top">
         <h2>Good processes<br>start with a<br><em>good conversation.</em></h2>
