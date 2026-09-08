@@ -1,20 +1,14 @@
-# Nitish Kumar Singh — Personal Portfolio
+# Nitish Kumar Singh — Portfolio v2
 
-This is a static personal portfolio website designed for GitHub Pages / Vercel.
+A custom personal portfolio for GitHub Pages.
 
-## Files
-- `index.html` — website content
-- `style.css` — design and responsive layout
-- `script.js` — dark mode and smooth navigation
-- `Nitish_Kumar_Singh_Resume.pdf` — resume linked from the site
+Design direction: editorial/professional rather than a clone of another portfolio.
 
-## Publish
-Upload all files to the root of the GitHub repository:
+Files:
+- index.html
+- style.css
+- script.js
+- Nitish_Kumar_Singh_Resume.pdf
 
-`Iamnitishrajput/iamnitishrajput.github.io`
-
-GitHub Pages can then publish it at:
-
-`https://iamnitishrajput.github.io/`
-
-For Vercel, import the same GitHub repository and deploy it as a static site.
+Upload/replace these files in:
+Iamnitishrajput/iamnitishrajput.github.io
