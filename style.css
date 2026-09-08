@@ -227,3 +227,29 @@ body.dark{--bg:#101725;--ink:#f2eee6;--muted:#a9b2c1;--line:#f2eee6;--accent:#ff
   .qa-toggle{padding:1rem .1rem}
   .qa-answer{padding-right:.1rem}
 }
+
+
+/* V9 layout lock: job status is compact and contained within the hero content */
+.hero .availability-pill,
+#home .availability-pill{
+  display:inline-flex !important;
+  width:max-content !important;
+  max-width:100% !important;
+  box-sizing:border-box !important;
+  margin:0 0 1rem !important;
+  position:static !important;
+  left:auto !important;
+  right:auto !important;
+  inset:auto !important;
+  float:none !important;
+}
+.availability-pill{
+  display:inline-flex !important;
+  align-items:center !important;
+  white-space:nowrap;
+}
+@media (max-width:600px){
+  .availability-pill{
+    white-space:normal;
+  }
+}

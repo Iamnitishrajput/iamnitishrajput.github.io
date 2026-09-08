@@ -91,15 +91,4 @@ document.querySelectorAll(".section h2, .career, .expertise-grid article, .proje
 })();
 
 
-/* V8: expandable personal Q&A */
-(function(){
-  document.querySelectorAll('.qa-toggle').forEach(function(button){
-    button.addEventListener('click', function(){
-      const panel = document.getElementById(button.getAttribute('aria-controls'));
-      if(!panel) return;
-      const open = button.getAttribute('aria-expanded') === 'true';
-      button.setAttribute('aria-expanded', String(!open));
-      panel.hidden = open;
-    });
-  });
-})();
+

@@ -27,3 +27,10 @@ https://iamnitishrajput.github.io/
 - Fixed the “Currently open to job opportunities” status so it stays within the portfolio content grid instead of touching the viewport edges.
 - Added an expandable “Questions You Might Have” section covering the career journey, graduation decision, current job search and career direction.
 - Added a navigation link to the new section.
+
+
+## V9 corrections
+- Removed the duplicate “Currently open to job opportunities” status and kept one compact status element inside the hero content.
+- Removed the Questions section and its navigation item.
+- Removed the duplicate “Academic background” education block.
+- Kept the education presentation to a single section.
